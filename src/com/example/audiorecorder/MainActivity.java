@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
 		Button btn2 = (Button) findViewById(R.id.button2);
 		Button btn3 = (Button) findViewById(R.id.button3);
 		Button btn4 = (Button) findViewById(R.id.button4);
+		Button btn5 = (Button) findViewById(R.id.button4);
 		
 		final String OUTPUT_FILE = Environment.getExternalStorageDirectory()+"/audiorecorder.3gpp";
 		btn1.setOnClickListener(new OnClickListener() {
